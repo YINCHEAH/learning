@@ -1,0 +1,58 @@
+
+npm init -y 
+npm install express mongose dotenv
+/*
+    express - web framework, build API
+    mongose - interact database
+    dotenv - evironment
+*/
+
+
+  npm i nodemon -D
+  /* nodemon - help to inmedialy to restart the server*/
+
+
+"type": "module" - to can import the package in script
+"dev": "nodemon backend/server.js" - npm run dev = get server (with nodemon)
+
+***************************************************************
+Backend: 
+server.js - a main js, that have can locathost, connect db
+db.js - access to mangoose db
+model.js - create a schema of a product, let mongoose to know structure 
+route.js - have end point with 4 call function
+controller.js - the code of 4 function
+
+4 action: 
+  app.post - create
+  app.get - get
+  app.put - update
+  app.delete - delete
+
+***************************************************************
+MongoseDB (No-SQL)
+-collection dont have table
+
+MySQL (SQL)
+-table, have row and collumn
+
+res.server()
+-400, 201, 500
+
+
+***************************************************************
+npm create vite@latest
+npm i
+npm run dev
+npm i react-router-dom
+
+npm i @chakra-ui/icons
+npm i react-icons
+
+<App /> - entire application
+<BrowserRouter> - component in react-router-dom, can different pages
+<ChakraProvider> - framework of UI
+
+npm i zustand
+
+
